@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>异常捕获 | 个人资料</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    <link rel="icon" href="/avatar.png">
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.98f07b2a.css" as="style"><link rel="preload" href="/assets/js/app.514746bd.js" as="script"><link rel="preload" href="/assets/js/2.efb47c5d.js" as="script"><link rel="preload" href="/assets/js/21.02d3b8a3.js" as="script"><link rel="prefetch" href="/assets/js/10.f34b2fd3.js"><link rel="prefetch" href="/assets/js/11.3dc22726.js"><link rel="prefetch" href="/assets/js/12.ab4deb52.js"><link rel="prefetch" href="/assets/js/13.05b7bb6f.js"><link rel="prefetch" href="/assets/js/14.314ca2f2.js"><link rel="prefetch" href="/assets/js/15.5ce8a054.js"><link rel="prefetch" href="/assets/js/16.6596ed6c.js"><link rel="prefetch" href="/assets/js/17.8644b164.js"><link rel="prefetch" href="/assets/js/18.90d1dc6e.js"><link rel="prefetch" href="/assets/js/19.117452e5.js"><link rel="prefetch" href="/assets/js/20.b99af7de.js"><link rel="prefetch" href="/assets/js/22.ba588a23.js"><link rel="prefetch" href="/assets/js/23.74e6e254.js"><link rel="prefetch" href="/assets/js/24.e8bfcba1.js"><link rel="prefetch" href="/assets/js/25.be113588.js"><link rel="prefetch" href="/assets/js/26.7d0db6cb.js"><link rel="prefetch" href="/assets/js/27.684e7a78.js"><link rel="prefetch" href="/assets/js/28.2b749b99.js"><link rel="prefetch" href="/assets/js/29.fcbd2ecd.js"><link rel="prefetch" href="/assets/js/3.f6c0e284.js"><link rel="prefetch" href="/assets/js/30.45faf144.js"><link rel="prefetch" href="/assets/js/4.30aa6f51.js"><link rel="prefetch" href="/assets/js/5.71d09d9c.js"><link rel="prefetch" href="/assets/js/6.5080911c.js"><link rel="prefetch" href="/assets/js/7.c864dd10.js"><link rel="prefetch" href="/assets/js/8.d9b3ebf3.js"><link rel="prefetch" href="/assets/js/9.622d382a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.98f07b2a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/avatar.png" alt="个人资料" class="logo"> <span class="site-name can-hide">个人资料</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/api/" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/tech/interview/" class="nav-link">
+  技术文档
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  mpvue
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/api/" class="nav-link">
+  API
+</a></div><div class="nav-item"><a href="/tech/interview/" class="nav-link">
+  技术文档
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  mpvue
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>说明</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/" class="sidebar-link">mpvue多端小程序开发指南</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>基础知识</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/base.html" class="sidebar-link">微信小程序入门</a></li><li><a href="/guide/base_vue.html" class="sidebar-link">Vue入门</a></li><li><a href="/guide/base_mpvue.html" class="sidebar-link">mpvue入门</a></li><li><a href="/guide/base_vuex.html" class="sidebar-link">vue-router和vuex入门</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>项目规划</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/dev.html" class="sidebar-link">项目开发指南</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>开发指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/dev/prepare.html" class="sidebar-link">项目框架搭建</a></li><li><a href="/guide/dev/home.html" class="sidebar-link">首页开发</a></li><li><a href="/guide/dev/auth.html" class="sidebar-link">用户授权</a></li><li><a href="/guide/dev/search.html" class="sidebar-link">搜索开发</a></li><li><a href="/guide/dev/book-list.html" class="sidebar-link">图书列表</a></li><li><a href="/guide/dev/book-detail.html" class="sidebar-link">图书详情</a></li><li><a href="/guide/dev/read.html" class="sidebar-link">阅读器</a></li><li><a href="/guide/dev/category-list.html" class="sidebar-link">分类列表</a></li><li><a href="/guide/dev/shelf.html" class="sidebar-link">书架</a></li><li><a href="/guide/dev/crash.html" class="active sidebar-link">异常捕获</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/dev/crash.html#集成-vuex" class="sidebar-link">集成 Vuex</a></li><li class="sidebar-sub-header"><a href="/guide/dev/crash.html#global-组件" class="sidebar-link">Global 组件</a></li><li class="sidebar-sub-header"><a href="/guide/dev/crash.html#优化现有组件" class="sidebar-link">优化现有组件</a></li></ul></li><li><a href="/guide/dev/error.html" class="sidebar-link">mpvue 异常处理详解</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>支付宝小程序开发指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/dev/alipay.html" class="sidebar-link">支付宝小程序开发指南</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>部署指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/release/git.html" class="sidebar-link">git使用方法简介</a></li><li><a href="/guide/release/server.html" class="sidebar-link">服务端搭建</a></li><li><a href="/guide/release/https.html" class="sidebar-link">https服务</a></li><li><a href="/guide/release/auto.html" class="sidebar-link">自动更新脚本</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="异常捕获"><a href="#异常捕获" class="header-anchor">#</a> 异常捕获</h1> <h2 id="集成-vuex"><a href="#集成-vuex" class="header-anchor">#</a> 集成 Vuex</h2> <p>安装 vuex：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> -S vuex
+</code></pre></div><p>创建 store.js，源码如下：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">import</span> Vue from <span class="token string">'vue'</span>
+<span class="token function">import</span> Vuex from <span class="token string">'vuex'</span>
+
+Vue.use<span class="token punctuation">(</span>Vuex<span class="token punctuation">)</span>
+
+const store <span class="token operator">=</span> new Vuex.Store<span class="token punctuation">(</span><span class="token punctuation">{</span>
+  state: <span class="token punctuation">{</span>
+    error: null
+  <span class="token punctuation">}</span>,
+  mutations: <span class="token punctuation">{</span>
+    setError: <span class="token punctuation">(</span>state, message<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>message<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        state.error <span class="token operator">=</span> <span class="token punctuation">{</span> message <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        state.error <span class="token operator">=</span> null
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token builtin class-name">export</span> default store
+</code></pre></div><p>这里的 vuex 中存放了一个 error 状态，mutations 中包含了一个方法 setError，用于更新 error 状态，error 状态是一个对象，包含一个 message 属性，即错误提示</p> <h2 id="global-组件"><a href="#global-组件" class="header-anchor">#</a> Global 组件</h2> <p>创建 Global 组件，源码如下：</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>global<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>error<span class="token punctuation">&quot;</span></span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>error<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>error-msg-wrapper<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>error-image<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ImageView</span>
+            <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://www.youbaobao.xyz/resource/icon/crash.png<span class="token punctuation">&quot;</span></span>
+          <span class="token punctuation">/&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>error-msg<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>{{error.message || '程序猿紧急抢修中...'}}<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>error-retry-wrapper<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>error-retry<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>retry<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>重启小程序<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>slot</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>!error<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>slot</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">import</span> store <span class="token keyword">from</span> <span class="token string">'../store'</span>
+  <span class="token keyword">import</span> <span class="token punctuation">{</span> setError <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'../utils/error'</span>
+  <span class="token keyword">import</span> ImageView <span class="token keyword">from</span> <span class="token string">'./base/ImageView'</span>
+
+  <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    components<span class="token operator">:</span> <span class="token punctuation">{</span> ImageView <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    computed<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token function">error</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> store<span class="token punctuation">.</span>state<span class="token punctuation">.</span>error
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token function">retry</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">// 跳转回到首页</span>
+        <span class="token keyword">let</span> path <span class="token operator">=</span> <span class="token function">getApp</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>globalData<span class="token punctuation">.</span>appOptions<span class="token punctuation">.</span>path
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>path<span class="token punctuation">.</span><span class="token function">startsWith</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          path <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">/</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>path<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span>
+        <span class="token punctuation">}</span>
+        mpvue<span class="token punctuation">.</span><span class="token function">reLaunch</span><span class="token punctuation">(</span><span class="token punctuation">{</span> url<span class="token operator">:</span> path <span class="token punctuation">}</span><span class="token punctuation">)</span>
+        <span class="token comment">// 重置异常信息</span>
+        <span class="token function">setError</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>scss<span class="token punctuation">&quot;</span></span> <span class="token attr-name">scoped</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+  <span class="token atrule"><span class="token rule">@import</span> <span class="token string">'../style/base'</span><span class="token punctuation">;</span></span>
+
+  <span class="token selector">.error</span> <span class="token punctuation">{</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> fixed<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+    <span class="token atrule"><span class="token rule">@include</span> center<span class="token punctuation">;</span></span>
+
+    <span class="token selector">.error-msg-wrapper</span> <span class="token punctuation">{</span>
+      <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+      <span class="token property">padding</span><span class="token punctuation">:</span> 0 15px<span class="token punctuation">;</span>
+      <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token selector">;
+
+      .error-image</span> <span class="token punctuation">{</span>
+        <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+        <span class="token property">padding</span><span class="token punctuation">:</span> 0 15px<span class="token punctuation">;</span>
+        <span class="token property">box-sizing</span><span class="token punctuation">:</span> border-box<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+
+      <span class="token selector">.error-msg</span> <span class="token punctuation">{</span>
+        <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+        <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+        <span class="token property">font-size</span><span class="token punctuation">:</span> 16px<span class="token punctuation">;</span>
+        <span class="token property">color</span><span class="token punctuation">:</span> #666<span class="token punctuation">;</span>
+        <span class="token property">margin-top</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+
+      <span class="token selector">.error-retry-wrapper</span> <span class="token punctuation">{</span>
+        <span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+        <span class="token atrule"><span class="token rule">@include</span> center<span class="token punctuation">;</span></span>
+
+        <span class="token selector">.error-retry</span> <span class="token punctuation">{</span>
+          <span class="token property">border</span><span class="token punctuation">:</span> 1px solid #3696EF<span class="token punctuation">;</span>
+          <span class="token property">border-radius</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
+          <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+          <span class="token property">font-size</span><span class="token punctuation">:</span> 13px<span class="token punctuation">;</span>
+          <span class="token property">color</span><span class="token punctuation">:</span> #3696EF<span class="token punctuation">;</span>
+          <span class="token property">padding</span><span class="token punctuation">:</span> 8px 40px<span class="token punctuation">;</span>
+          <span class="token property">margin-top</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>Global 是一个容器组件，它最主要的有以下两点：</p> <ol><li>获取 vuex 中的 error 状态，如果 error 状态不为 null，则显示 error 中的信息</li> <li>如果 error 状态为 null，则显示 slot 插槽，这部分就是我们自己的组件内容了</li></ol> <h2 id="优化现有组件"><a href="#优化现有组件" class="header-anchor">#</a> 优化现有组件</h2> <p>将现有组件外层套上 Global 组件即可，这里以 list 组件为例：</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Global</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>list<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>SearchTable</span> <span class="token attr-name">:data</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>data<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Global</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>附赠：<a href="/guide/dev/error.html">Sam 老师《mpvue 专栏》异常处理章节</a></p></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide/dev/shelf.html" class="prev">
+        书架
+      </a></span> <span class="next"><a href="/guide/dev/error.html">
+        mpvue 异常处理详解
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.514746bd.js" defer></script><script src="/assets/js/2.efb47c5d.js" defer></script><script src="/assets/js/21.02d3b8a3.js" defer></script>
+  </body>
+</html>
